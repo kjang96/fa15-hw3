@@ -1,0 +1,9 @@
+
+<h1> These are your users: </h1>
+<% @users.each do |u| %>
+	<p><%= u.name %> <%= u.email %> <% u.age %> </p>
+<% end %>
+
+<% @cats.each do |c| %>
+	<p><%= c.name %> </p>
+<% end %>
